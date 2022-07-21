@@ -40,3 +40,7 @@ def test_pass9():
 
 def test_pass10():
     pass
+
+
+def test_pass11():
+    pass
