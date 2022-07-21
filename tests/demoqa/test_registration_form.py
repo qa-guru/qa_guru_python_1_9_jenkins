@@ -3,8 +3,8 @@ from selene import have, by
 
 
 @allure.title("Successful fill form")
-def test_successful(setup_chrome):
-    browser = setup_chrome
+def test_successful(setup_browser):
+    browser = setup_browser
     first_name = "Alex"
     last_name = "Egorov"
 
