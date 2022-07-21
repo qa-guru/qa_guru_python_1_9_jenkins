@@ -15,14 +15,15 @@ def test_successful():
         "browserVersion": "100.0",
         "selenoid:options": {
             "enableVNC": True,
-            "enableVideo": False
+            "enableVideo": True
         }
     }
     options.capabilities.update(selenoid_capabilities)
 
     driver = webdriver.Remote(
         command_executor="https://user1:1234@selenoid.autotests.cloud/wd/hub",
-        options=options)
+        options=options
+    )
     browser.config.driver = driver
 
     first_name = "Alex"
