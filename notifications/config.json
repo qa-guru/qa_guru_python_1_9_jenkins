@@ -3,13 +3,13 @@
     "project": "some project",
     "environment": "PROD",
     "comment": "link to pull request",
-    "reportLink": "https://jenkins.autotests.cloud/job/teacher-iTerkin-qa_guru_12_11_jenkins_notifications_no_jar/83/",
+    "reportLink": "",
     "language": "en",
     "allureFolder": "allure-report/",
     "enableChart": true
   },
   "telegram": {
-    "token": "5351617638:AAEOJu9JEk48VjO0_6d_XwN0b_vdjlqPaEQ",
+    "token": "xxxAEOJu9JEk48VjO0_6d_XwN0b_vdjlqPaEQ",
     "chat": "-1001799946630",
     "replyTo": ""
   }
